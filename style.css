@@ -1,0 +1,82 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {}
+
+.Container-Navbar {
+    background-color: pink;
+    width: 100%;
+    height: 15vh;
+}
+.Ul-Navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    color:rgb(0, 0, 0);
+    margin: 5px;
+    font-size: 75px;
+}
+
+.Li-navbar:hover {
+    background-color: tomato;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.A-Nav {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.Container-Content {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.A-Cont {
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.img-Content {
+    width: 50%;
+    height: 50%;
+}
+
+.Container-Footer{
+    height: 10vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-Footer {
+    font-size: 40px;
+    color: white;
+}
